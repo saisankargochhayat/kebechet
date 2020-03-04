@@ -107,6 +107,15 @@ repositories:
             - sesheta
           labels: [bot]
           changelog_file: true
+  
+  - slug: opendatahub/ai-library
+    token: "{GITLAB_KEBECHET_TOKEN}"
+    service_type: gitlab
+    managers:
+      - name: info
+      - name: update
+        configuration:
+          labels: [bot]
 
   - slug: durandom/64fbc27e213f5a61c975ab29df94536b88f03270
     token: '{KEBECHET_TOKEN}'
